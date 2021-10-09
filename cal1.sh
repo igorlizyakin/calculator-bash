@@ -3,7 +3,7 @@ echo "Старт Колькулятора"
 cat file1.txt | while read y
 do
 echo "line 1: $y "
-#done
+#done1
 a=$((y))
 echo $a
 done
@@ -11,7 +11,7 @@ done
 cat file2.txt | while read x
 do
 echo "line 2: $x "
-#done
+#done2
 b=$((x))
 echo $b
 done
